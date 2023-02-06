@@ -1,0 +1,101 @@
+.parallax-img2{
+    width: 100%;
+    background-image: url('../../../../assets/images/img4.jpg');
+    
+    /* height: 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services{
+    /* background-color: rgba(204, 0, 0, 0.8); */
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    /* height: 100%; */
+}
+.services p{
+    /* font-size: 1.8rem; */
+    font-weight: 600;
+    color: red;
+}
+
+.services h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(56, 56, 56);
+}
+
+.services hr{
+    width: 150px;   
+    border: 1px solid rgba(255, 0, 0,1);
+    margin: 0 auto;
+}
+
+.cards{
+    width: 90vw;
+    display: flex;
+    gap: 3rem;
+    margin: 100px auto 0 auto;
+}
+
+.card_services{
+    padding: 20px;
+    width: 280px;
+    height: 450px;    
+    position: relative;
+    background-image: linear-gradient(to top,rgba(237, 77, 44,0.9),rgba(14, 70, 96, 0.5)), url('../../../../assets/images/automative.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  
+}
+
+
+
+.card_services h3{
+    margin-top: 100px;
+    color: white;
+    font-size: 2rem;
+    /* margin: 200px auto 0 auto; */
+}
+
+.card_services p{
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left:0;
+    right: 0;
+    width: 200px;
+    margin: 0px auto 0px auto;
+}
+
+.card_services .cta-btn{
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    color: rgba(237, 77, 44,1);
+    position: absolute;
+    top: 370px;
+    margin: 0px auto 0 auto;
+}
+.card_services .cta-btn:hover{
+    color: white;
+    background-color: rgba(237, 77, 44,1);
+}
+
+.card_services:hover>h3{
+     margin-top: 80px;
+    transition:  1s linear;
+}
+.card_services:hover{
+    margin-top: -20px;
+    
+    transition:cubic-bezier(0.1,0.1,0,0) 0.5s;
+}

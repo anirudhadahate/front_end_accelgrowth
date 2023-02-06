@@ -1,0 +1,129 @@
+.home_header{
+  padding: 0;
+}
+
+.carousel-caption{
+  color: aliceblue;
+  position: absolute;
+  top: 300px;
+  
+}
+
+/*textanimation */
+.text-slide{
+  position: relative;
+  /* background-color: black; */
+  width: 600px;
+  height: 600px;
+  color: white;
+  margin: -100px auto 0px auto;
+  overflow: hidden;
+}
+
+.text-slide>h1:not(.second_heading){
+  position: absolute;
+  color: white;
+  left: -600px;
+  width: 600px;
+  margin: 0px auto;
+  font-size: 4.5rem;
+  font-weight: 700;
+  animation: reveal1 2s ease 1s forwards;
+}
+.second_heading{
+  position: absolute;
+  color: white;
+  top: 50px;
+  right: -800px;
+  width: 600px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 0px auto;
+  animation: reveal2 2s ease 1s forwards;
+}
+
+.text-slide>h5{
+  position: absolute;
+  color: white;
+  top:130px;
+  font-size: 2.5rem;
+  margin: 0px 50px 0px 50px ;
+  opacity: 0;
+  animation: reveal3 4s ease-in-out 1s forwards;
+}
+
+.text-slide>a{
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(237, 77, 44);
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  animation: reveal4 2s ease-in-out 1s forwards;
+}
+
+.text-slide>a:hover{
+  background-color: white;
+  color: rgb(219, 39, 8);
+}
+
+
+
+@keyframes reveal1 {
+  0%{
+      left: -800px;
+  }
+  
+  100%{
+      left: 50px;
+  }
+  
+}
+@keyframes reveal2 {
+  0%{
+      right: -500px;
+  }
+  
+  100%{
+     right: 50px;
+     /* left: 0; */
+  }
+  
+}
+
+
+@keyframes reveal3 {
+  0%{
+      font-size: 2.5rem;
+      opacity: 0;
+      margin: 0px 50px 0px 50px ;
+  }
+  
+  100%{
+      font-size: 2rem;
+      font-weight: 400;
+      opacity: 1;
+      margin: 0px 90px 0px 90px ;
+  }
+  
+}
+
+@keyframes reveal4 {
+  0%{
+      top: 600px;
+  }
+  
+  100%{
+      top: 270px;
+  }
+  
+}

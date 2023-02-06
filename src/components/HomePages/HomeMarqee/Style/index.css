@@ -1,0 +1,47 @@
+.tech_list{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 222, 222);
+    display: flex;
+    margin-top: -10rem;
+}
+.tech_list img{
+    margin:10px 20px 10px 10px;
+    width: 70px;
+  }
+.blank-box{
+    width: 100%;
+    height: 180px;
+    margin-top: -600px;    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.parallax-img{
+
+    /* position: relative; */
+    background-image: url('../../../../assets/images/img6.jpg');
+    height: 680px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quate{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.quate span{
+    color: yellow;
+    font-size: 4rem;
+}
+.quate h3{
+    font-size: 4rem;
+    width: 40vw;
+    text-align: center;
+    color:white;
+    padding-top: 200px;
+    margin: 0px auto 0px auto;
+}

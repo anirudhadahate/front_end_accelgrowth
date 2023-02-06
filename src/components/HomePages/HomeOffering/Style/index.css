@@ -1,0 +1,42 @@
+.parallax-img{
+    background-color: aliceblue;
+}
+.offering{
+    width: 90vw;
+    height: 350px;
+    /* background-color: rgb(237, 77, 44); */
+    background-color: rgb(14, 70, 96);
+    margin: -100px auto 0px auto;
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.offering_card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    width: 20%;
+}
+
+.offering_card img{
+    width: 50px;
+}
+.offering_card h2{
+    /* width: 100px; */
+    font-size: 2rem;
+    color: white;
+}
+.offering_card p{
+    width: 100px;
+}
