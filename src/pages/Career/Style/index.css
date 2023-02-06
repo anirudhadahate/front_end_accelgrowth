@@ -1,0 +1,99 @@
+.career_header_section{
+    height: 30rem;
+    /* background-image: url("/src/images/careerbg3.jpg"); */
+    
+}
+.career_container{
+    background-image: url("/src//images/careerbodybg.png");
+}
+.navbar{
+    background-color: #00e6e3;
+    margin-left: 10%;
+}
+.sub_navbar{
+    margin-top: -29rem;
+}
+.head_paras h2{
+    font-size: 1.75rem;
+    color: #15011d;
+    letter-spacing: .12px;
+    line-height: 32px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    margin-top: -4rem;
+}
+.head_paras p{
+    font-size: 1rem;
+    color: #15011d;
+    letter-spacing: .4px;
+    line-height: 1.5rem;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+.two_column{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.socio_icons{
+    display: flex;
+    flex-direction: column;
+}
+.career_two_column{
+    background-image: url("/src/images/careerbg3.jpg");
+    height: 35rem;
+    margin-right: 5rem;
+    margin-top: 4rem;
+}
+.why_accelgrowth{
+    background-color: #154862;
+    height: 50rem;
+    width: 35rem;
+    margin-left: 48rem;
+    margin-top: -40rem;
+}
+.why_accelgrowth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.why_accelgrowth h2{
+    font-size: 1.75rem;
+    color:white;
+    letter-spacing: .12px;
+    line-height: 32px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+.why_accelgrowth p{
+    font-size: 1rem;
+    color:white;
+    letter-spacing: .4px;
+    line-height: 1.5rem;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    margin-top:1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    text-align: center;
+}
+.passion_inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.branding_boxes{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.career_passion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
